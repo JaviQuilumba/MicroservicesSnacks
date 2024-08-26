@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
 
 
 app.use(cors({
-  origin: 'http://localhost:3000'
+  origin: 'https://cinema-platform-743n6.ondigitalocean.app'
 }));
 
 app.use(bodyParser.json());
