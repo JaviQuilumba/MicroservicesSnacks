@@ -36,7 +36,6 @@ Create an `.env` file in the root of the project and set the following environme
 To use the microservice, follow the steps above to install and run the project. Once the program is running you can make use of the frontend of the cinema platform which should also run on your local machine or you can make use of the Swagger documentation available, with which it would no longer be necessary to have the frontend of the cinema platform to test this microservice, you can access through the URL of your local machine by increasing the following path at the end of the URL: `/swaggerDeleteSnack`.
 </p>
 
-
 `Frontend Cinema Platform` : <https://github.com/JaviQuilumba/CinemaPlatform.git>
 
 #### Technologies used for this microservice

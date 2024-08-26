@@ -18,6 +18,7 @@ app.use(cors({
 
 app.use(bodyParser.json());
 app.use('/api', cinemaRoutes);
+
 app.use('/swaggerUpdateSnack', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
 app.listen(port, () => {
